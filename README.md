@@ -1,1 +1,1 @@
-This project was our first look into jQuery and JS/DOM interaction. Features of this small application include programatic construction of DOM elements, event listeners, and a hover-dropdown settings menu
+This project was our first look into jQuery and JS/DOM interaction. Features of this small application include programmatic construction of DOM elements, event listeners, and a hover-dropdown settings menu

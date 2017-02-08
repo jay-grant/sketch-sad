@@ -1,0 +1,167 @@
+/* Stylesheet for sketch project */
+
+html {
+	background-color: #282828;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #999;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	overflow-y: hidden;
+}
+
+div {
+	display: block;
+}
+
+#view {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+
+#backdrop {
+	position: absolute;
+	margin: 0 auto;
+	margin-top: 100px;
+	height: 685px;
+	width: 100%;
+	background-color: #323232;
+}
+
+#content {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 105px;
+	height: 680px;
+	width: 640px;
+	min-width: 640px;
+	background-color: #323232;
+	left: 0;
+	right: 0;
+	/*box-shadow: 0 2px 20px 0 white;*/
+	text-align: center;
+}
+
+#logo {
+	color: #bbb;
+	position: relative;
+	padding-top: 25px;
+	font-size: 48px;
+	letter-spacing: 8px;
+}
+
+#logo:hover {
+	cursor: default;
+}
+
+#menu {
+	margin-top: 25px;
+	letter-spacing: 5px;
+	max-height: 20px;
+}
+
+.button {
+	display: inline-block;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.button:hover {
+	cursor: pointer;
+	color: #ececec;
+}
+
+#dropdown {
+	display: none;
+	color: #999;
+	text-align: right;
+	position: absolute;
+	width: 120px;
+	right: 56px;
+	padding-top: 8px;
+	padding-right: 24px;
+	margin-bottom: 8px;
+	cursor: default;
+
+	background-color: #323232;
+	z-index: 1000;
+}
+
+#dropdown div {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+#dropdown div:hover {
+	color: #c1e4e6;
+	cursor: pointer;
+}
+
+#canvas {
+	position: relative;
+	margin: 40px auto;
+	height: 480px;
+	width: 480px;
+	background-color: #282828;
+	overflow-y: default;
+}
+
+.row {
+	float: left;
+}
+
+.pixel {
+	outline-width: 1px;
+	outline-color: #323232;
+	outline-style: solid;
+
+	background-color: transparent;
+}
+
+.pixel:hover {
+	cursor: pointer;
+}
+
+#rainbow {
+	background-color: #ececec;
+	height: 5px;
+	width: 100%;
+	top: -5px;
+}
+
+#rainbow div {
+	float: left;
+	height: 100%;
+	width: 14.2%;
+	position: relative;
+}
+
+#rainbow-col-1 {
+	background-color: #65478e;
+}
+
+#rainbow-col-2 {
+	background-color: #8f629c;
+}
+#rainbow-col-3 {
+	background-color: #d27ab6;
+}
+#rainbow-col-4 {
+	background-color: #35a6c8;
+}
+#rainbow-col-5 {
+	background-color: #5fc2d1;
+}
+#rainbow-col-6 {
+	background-color: #c1e4e6;
+}
+#rainbow-col-7 {
+	background-color: #ececc6;
+}
